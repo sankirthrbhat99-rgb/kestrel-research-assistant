@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments / tooling (installed locally, never committed)
+.venv/
+.tools/
+.uvcache/
+.tmp/
+wheels/
+.model_cache/
+
+# Secrets
+.env
+
+# Generated retrieval indexes (rebuild with: python -m kestrel.ingest)
+index/
+
+# Generated outputs
+# (Results MUST be committed for grading)
+# OS
+Thumbs.db
+desktop.ini

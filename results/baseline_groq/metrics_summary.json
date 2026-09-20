@@ -1,0 +1,56 @@
+{
+  "aggregate": {
+    "retrieval_recall@k": 0.15,
+    "retrieval_mrr": 0.15,
+    "faithfulness": 0.15,
+    "answer_relevance": 0.3,
+    "correctness": 0.0,
+    "citation_precision": 0.2
+  },
+  "breakdown": {
+    "follow_up": {
+      "retrieval_recall@k": 0.0,
+      "retrieval_mrr": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "correctness": 0.0,
+      "citation_precision": 0.08333333333333333
+    },
+    "unsupported": {
+      "retrieval_recall@k": 1.0,
+      "retrieval_mrr": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 0.0,
+      "correctness": 0.0,
+      "citation_precision": 0.0
+    },
+    "conflicting": {
+      "retrieval_recall@k": 0.0,
+      "retrieval_mrr": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevance": 1.0,
+      "correctness": 0.0,
+      "citation_precision": 0.38888888888888884
+    },
+    "multi_hop": {
+      "retrieval_recall@k": 0.0,
+      "retrieval_mrr": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevance": 0.2,
+      "correctness": 0.0,
+      "citation_precision": 0.4
+    },
+    "single_hop": {
+      "retrieval_recall@k": 0.0,
+      "retrieval_mrr": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevance": 0.4,
+      "correctness": 0.0,
+      "citation_precision": 0.1
+    }
+  },
+  "total_token_usage": 0,
+  "total_wall_clock_time": 820.9378650188446,
+  "generation_model": "openai/gpt-oss-120b",
+  "embedding_model": "BAAI/bge-small-en-v1.5"
+}

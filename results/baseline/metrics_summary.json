@@ -1,0 +1,56 @@
+{
+  "aggregate": {
+    "retrieval_recall@k": 0.15,
+    "retrieval_mrr": 0.15,
+    "faithfulness": 0.15,
+    "answer_relevance": 0.0,
+    "correctness": 0.0,
+    "citation_precision": 0.15
+  },
+  "breakdown": {
+    "multi_hop": {
+      "retrieval_recall@k": 0.0,
+      "retrieval_mrr": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "correctness": 0.0,
+      "citation_precision": 0.0
+    },
+    "follow_up": {
+      "retrieval_recall@k": 0.0,
+      "retrieval_mrr": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "correctness": 0.0,
+      "citation_precision": 0.0
+    },
+    "unsupported": {
+      "retrieval_recall@k": 1.0,
+      "retrieval_mrr": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 0.0,
+      "correctness": 0.0,
+      "citation_precision": 1.0
+    },
+    "conflicting": {
+      "retrieval_recall@k": 0.0,
+      "retrieval_mrr": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "correctness": 0.0,
+      "citation_precision": 0.0
+    },
+    "single_hop": {
+      "retrieval_recall@k": 0.0,
+      "retrieval_mrr": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevance": 0.0,
+      "correctness": 0.0,
+      "citation_precision": 0.0
+    }
+  },
+  "total_token_usage": 0,
+  "total_wall_clock_time": 0.0,
+  "generation_model": "gemini-3.8-flash",
+  "embedding_model": "BAAI/bge-small-en-v1.5"
+}
